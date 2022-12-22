@@ -9,7 +9,13 @@ export default function Navigation() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
             </div>
-            
+            <div className="collapse navbar-collapse" id="navbarResponsive">
+                <ul className="nav ml-auto">
+                    <li className="nav-item">
+                        <button className="btn btn-success">Cargar random</button>
+                    </li>
+                </ul>
+            </div>
         </nav>
     )
 }
